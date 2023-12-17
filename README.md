@@ -1,66 +1,45 @@
-## Foundry
+# ERC20 Token
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+A Solidity-based Ethereum token smart contract with integrated deployment and testing scripts, showcasing efficient token management and transaction handling using Foundry.
 
-Foundry consists of:
+## Table of Contents
 
-- **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
-- **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
-- **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
-- **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+- [Installation](#installation)
+- [Usage](#usage)
+- [Running Tests](#running-tests)
+- [Contributing](#contributing)
+- [License](#license)
 
-## Documentation
+## Installation
 
-https://book.getfoundry.sh/
+To use OurToken, clone the repository and install the dependencies.
+
+```bash
+git clone [repository-link]
+cd [repository-name]
+# install dependencies if any
+```
 
 ## Usage
 
-### Build
+After installation, you can deploy the OurToken contract to a local testnet or Ethereum mainnet.
 
-```shell
-$ forge build
+```bash
+# Command to run the deployment script
 ```
 
-### Test
+## Running Tests
 
-```shell
-$ forge test
+Ensure that Foundry is installed and run the following command to execute the tests:
+
+```bash
+forge test
 ```
 
-### Format
+## Contributing
 
-```shell
-$ forge fmt
-```
+Contributions are welcome! Please read through the [contribution guidelines](CONTRIBUTION_GUIDELINES_LINK) for details on our code of conduct, and the process for submitting pull requests.
 
-### Gas Snapshots
+## License
 
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
+This project is licensed under the MIT License - see the [LICENSE](LICENSE_LINK) file for details.
